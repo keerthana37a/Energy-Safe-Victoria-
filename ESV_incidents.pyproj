@@ -1,0 +1,709 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e3634448-8741-4455-ac7c-77bcff298d25</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>app.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>ESV_incidents</Name>
+    <RootNamespace>ESV_incidents</RootNamespace>
+    <InterpreterId>
+    </InterpreterId>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\css\.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\css\animate.min.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\css\baguetteBox.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\css\bootstrap.min.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\css\style.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\css\font-awesome.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\css\font-awesome.min.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\fonts\fontawesome-webfont.eot" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\fonts\fontawesome-webfont.svg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\fonts\fontawesome-webfont.ttf" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\fonts\fontawesome-webfont.woff" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\fonts\fontawesome-webfont.woff2" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\fonts\FontAwesome.otf" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\animated.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\bordered-pulled.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\core.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\fixed-width.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\font-awesome.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\icons.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\larger.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\list.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\mixins.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\path.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\rotated-flipped.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\stacked.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\variables.less" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\font-awesome.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_animated.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_bordered-pulled.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_core.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_fixed-width.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_icons.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_larger.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_list.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_mixins.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_path.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_rotated-flipped.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_stacked.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\_variables.scss" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\about-bg.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\about.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\blog\blog.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\blog\blog2.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\blog\blog3.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\client1.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\client2.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\client3.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\client4.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\ficon.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\gallery\.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\gallery\1.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\gallery\2.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\gallery\3.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\gallery\4.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\gallery\5.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\gallery\6.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\header.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\images\.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\iphone.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\logo.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\map.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\team\.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\team\1.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\team\2.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\team\3.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\baguetteBox.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\bootstrap.min.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\controls.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\custom.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\jquery.easing.min.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\jquery.filterizr.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\jquery.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\plugins.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\wow.min.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\index.html" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\index2.html" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\index3.html" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\creativo\index4.html" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\ie.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\buttons\icons\cross.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\buttons\icons\key.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\buttons\icons\tick.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\buttons\readme.txt" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\buttons\screen.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\fancy-type\readme.txt" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\fancy-type\screen.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\icons\doc.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\icons\email.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\icons\external.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\icons\feed.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\icons\im.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\icons\pdf.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\icons\visited.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\icons\xls.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\readme.txt" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\screen.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\rtl\readme.txt" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\rtl\screen.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\print.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\screen.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\shCoreDefault.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\snippet.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\src\forms.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\src\grid.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\src\grid.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\src\ie.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\src\print.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\src\reset.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\src\typography.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\images\.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\images\back-top.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\images\bg.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\images\sprite.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\scripts\jquery-ui.custom.min.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\scripts\jquery.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\scripts\shBrushCss.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\scripts\shBrushJScript.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\scripts\shBrushPhp.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\scripts\shBrushXml.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\scripts\shCore.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\scripts\snippet.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\index.html" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\._.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\._index.html" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\._index2.html" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\._index3.html" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\._index4.html" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\._.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\css\._.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\css\._baguetteBox.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\css\._style.css" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\font\._.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._about-bg.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._about.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._client1.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._client2.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._client3.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._client4.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._ficon.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._header.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._iphone.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._logo.png" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._map.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\._Thumbs.db" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\blog\._blog.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\blog\._blog2.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\blog\._blog3.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\gallery\._.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\gallery\._1.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\gallery\._2.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\gallery\._3.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\gallery\._4.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\gallery\._5.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\gallery\._6.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\images\._.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\team\._.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\team\._1.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\team\._2.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\team\._3.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\js\._.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\js\._baguetteBox.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\js\._controls.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\js\._custom.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\js\._jquery.filterizr.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\js\._plugins.js" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\Theme Documentation\assets\images\._.DS_Store" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\Theme Documentation\assets\images\._bg.jpg" />
+    <Content Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\Theme Documentation\assets\images\._Thumbs.db" />
+    <Content Include="Models\dt\decisiontree.sav" />
+    <Content Include="Models\dt\decisiontree_labelenc.pickel" />
+    <Content Include="Models\dt\decisiontree_vector.pickel" />
+    <Content Include="Models\knn\cleanText.pickle" />
+    <Content Include="Models\knn\knn_countvectorizer.pickel" />
+    <Content Include="Models\knn\saved_model_knn.sav" />
+    <Content Include="Models\knn\saved_tfidf_trans.pickle" />
+    <Content Include="Models\knn\saved_vectorizer.pickle" />
+    <Content Include="Models\lr\le.pickel" />
+    <Content Include="Models\lr\logreg.sav" />
+    <Content Include="Models\lr\logreg_model.sav" />
+    <Content Include="Models\lr\vect.pickel" />
+    <Content Include="Models\rf\randomforest_model.sav" />
+    <Content Include="Models\rf\randomforest_transformer.pickel" />
+    <Content Include="Models\rf\randomforest_vector.pickel" />
+    <Content Include="Models\rnn\le.pickel" />
+    <Content Include="Models\rnn\model.h5" />
+    <Content Include="Models\rnn\model.json" />
+    <Content Include="Models\rnn\RNN.h5" />
+    <Content Include="Models\rnn\rnn_model.h5" />
+    <Content Include="Models\rnn\tok.pickel" />
+    <Content Include="Models\xgb\count_vector.pickel" />
+    <Content Include="Models\xgb\label_encoder.pickel" />
+    <Content Include="Models\xgb\model.sav" />
+    <Content Include="requirements.txt" />
+    <Content Include="static\.DS_Store" />
+    <Content Include="static\assets\.DS_Store" />
+    <Content Include="static\assets\css\.DS_Store" />
+    <Content Include="static\assets\css\animate.min.css" />
+    <Content Include="static\assets\css\baguetteBox.css" />
+    <Content Include="static\assets\css\bootstrap.min.css" />
+    <Content Include="static\assets\css\style.css" />
+    <Content Include="static\assets\font\.DS_Store" />
+    <Content Include="static\assets\font\css\font-awesome.css" />
+    <Content Include="static\assets\font\css\font-awesome.min.css" />
+    <Content Include="static\assets\font\fonts\fontawesome-webfont.eot" />
+    <Content Include="static\assets\font\fonts\fontawesome-webfont.svg" />
+    <Content Include="static\assets\font\fonts\fontawesome-webfont.ttf" />
+    <Content Include="static\assets\font\fonts\fontawesome-webfont.woff" />
+    <Content Include="static\assets\font\fonts\fontawesome-webfont.woff2" />
+    <Content Include="static\assets\font\fonts\FontAwesome.otf" />
+    <Content Include="static\assets\font\less\animated.less" />
+    <Content Include="static\assets\font\less\bordered-pulled.less" />
+    <Content Include="static\assets\font\less\core.less" />
+    <Content Include="static\assets\font\less\fixed-width.less" />
+    <Content Include="static\assets\font\less\font-awesome.less" />
+    <Content Include="static\assets\font\less\icons.less" />
+    <Content Include="static\assets\font\less\larger.less" />
+    <Content Include="static\assets\font\less\list.less" />
+    <Content Include="static\assets\font\less\mixins.less" />
+    <Content Include="static\assets\font\less\path.less" />
+    <Content Include="static\assets\font\less\rotated-flipped.less" />
+    <Content Include="static\assets\font\less\stacked.less" />
+    <Content Include="static\assets\font\less\variables.less" />
+    <Content Include="static\assets\font\scss\font-awesome.scss" />
+    <Content Include="static\assets\font\scss\_animated.scss" />
+    <Content Include="static\assets\font\scss\_bordered-pulled.scss" />
+    <Content Include="static\assets\font\scss\_core.scss" />
+    <Content Include="static\assets\font\scss\_fixed-width.scss" />
+    <Content Include="static\assets\font\scss\_icons.scss" />
+    <Content Include="static\assets\font\scss\_larger.scss" />
+    <Content Include="static\assets\font\scss\_list.scss" />
+    <Content Include="static\assets\font\scss\_mixins.scss" />
+    <Content Include="static\assets\font\scss\_path.scss" />
+    <Content Include="static\assets\font\scss\_rotated-flipped.scss" />
+    <Content Include="static\assets\font\scss\_stacked.scss" />
+    <Content Include="static\assets\font\scss\_variables.scss" />
+    <Content Include="static\assets\img\.DS_Store" />
+    <Content Include="static\assets\img\about-bg.jpg" />
+    <Content Include="static\assets\img\about.jpg" />
+    <Content Include="static\assets\img\blog\blog.jpg" />
+    <Content Include="static\assets\img\blog\blog2.jpg" />
+    <Content Include="static\assets\img\blog\blog3.jpg" />
+    <Content Include="static\assets\img\client1.jpg" />
+    <Content Include="static\assets\img\client2.jpg" />
+    <Content Include="static\assets\img\client3.jpg" />
+    <Content Include="static\assets\img\client4.jpg" />
+    <Content Include="static\assets\img\DeakinEnergy.jpg" />
+    <Content Include="static\assets\img\ficon.png" />
+    <Content Include="static\assets\img\gallery\.DS_Store" />
+    <Content Include="static\assets\img\gallery\1.jpg" />
+    <Content Include="static\assets\img\gallery\2.jpg" />
+    <Content Include="static\assets\img\gallery\3.jpg" />
+    <Content Include="static\assets\img\gallery\4.jpg" />
+    <Content Include="static\assets\img\gallery\5.jpg" />
+    <Content Include="static\assets\img\gallery\6.jpg" />
+    <Content Include="static\assets\img\gallery\bitbucket.png" />
+    <Content Include="static\assets\img\gallery\jupyter.png" />
+    <Content Include="static\assets\img\gallery\python-logo.png" />
+    <Content Include="static\assets\img\gallery\sourcetree.png" />
+    <Content Include="static\assets\img\gallery\tableau-logo.png" />
+    <Content Include="static\assets\img\gallery\VS.png" />
+    <Content Include="static\assets\img\header.jpg" />
+    <Content Include="static\assets\img\images\.DS_Store" />
+    <Content Include="static\assets\img\iphone.png" />
+    <Content Include="static\assets\img\logo - Copy.png" />
+    <Content Include="static\assets\img\logo.png" />
+    <Content Include="static\assets\img\map.jpg" />
+    <Content Include="static\assets\img\team\.DS_Store" />
+    <Content Include="static\assets\img\team\1.jpg" />
+    <Content Include="static\assets\img\team\2.jpg" />
+    <Content Include="static\assets\img\team\3.jpg" />
+    <Content Include="static\assets\js\.DS_Store" />
+    <Content Include="static\assets\js\baguetteBox.js" />
+    <Content Include="static\assets\js\bootstrap.min.js" />
+    <Content Include="static\assets\js\controls.js" />
+    <Content Include="static\assets\js\custom.js" />
+    <Content Include="static\assets\js\jquery.easing.min.js" />
+    <Content Include="static\assets\js\jquery.filterizr.js" />
+    <Content Include="static\assets\js\jquery.js" />
+    <Content Include="static\assets\js\plugins.js" />
+    <Content Include="static\assets\js\wow.min.js" />
+    <Content Include="static\css\.DS_Store" />
+    <Content Include="static\css\animate.css" />
+    <Content Include="static\css\animate.min.css" />
+    <Content Include="static\css\baguetteBox.css" />
+    <Content Include="static\css\bootstrap-grid.css" />
+    <Content Include="static\css\bootstrap-grid.min.css" />
+    <Content Include="static\css\bootstrap-reboot.css" />
+    <Content Include="static\css\bootstrap-reboot.min.css" />
+    <Content Include="static\css\bootstrap-select.css" />
+    <Content Include="static\css\bootstrap.css" />
+    <Content Include="static\css\bootstrap.min.css" />
+    <Content Include="static\css\colors.css" />
+    <Content Include="static\css\flaticon.css" />
+    <Content Include="static\css\font-awesome.css" />
+    <Content Include="static\css\font-awesome.min.css" />
+    <Content Include="static\css\owl.carousel.css" />
+    <Content Include="static\css\owl.carousel.min.css" />
+    <Content Include="static\css\owl.theme.default.css" />
+    <Content Include="static\css\responsive.css" />
+    <Content Include="static\css\style.css" />
+    <Content Include="static\favicon.ico" />
+    <Content Include="static\fonts\flaticon.css" />
+    <Content Include="static\fonts\Flaticon.eot" />
+    <Content Include="static\fonts\Flaticon.svg" />
+    <Content Include="static\fonts\Flaticon.ttf" />
+    <Content Include="static\fonts\Flaticon.woff" />
+    <Content Include="static\fonts\fontawesome-webfont.eot" />
+    <Content Include="static\fonts\fontawesome-webfont.svg" />
+    <Content Include="static\fonts\fontawesome-webfont.ttf" />
+    <Content Include="static\fonts\fontawesome-webfont.woff" />
+    <Content Include="static\fonts\fontawesome-webfont.woff2" />
+    <Content Include="static\fonts\FontAwesome.otf" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="static\font\.DS_Store" />
+    <Content Include="static\font\css\font-awesome.css" />
+    <Content Include="static\font\css\font-awesome.min.css" />
+    <Content Include="static\font\fonts\fontawesome-webfont.eot" />
+    <Content Include="static\font\fonts\fontawesome-webfont.svg" />
+    <Content Include="static\font\fonts\fontawesome-webfont.ttf" />
+    <Content Include="static\font\fonts\fontawesome-webfont.woff" />
+    <Content Include="static\font\fonts\fontawesome-webfont.woff2" />
+    <Content Include="static\font\fonts\FontAwesome.otf" />
+    <Content Include="static\font\less\animated.less" />
+    <Content Include="static\font\less\bordered-pulled.less" />
+    <Content Include="static\font\less\core.less" />
+    <Content Include="static\font\less\fixed-width.less" />
+    <Content Include="static\font\less\font-awesome.less" />
+    <Content Include="static\font\less\icons.less" />
+    <Content Include="static\font\less\larger.less" />
+    <Content Include="static\font\less\list.less" />
+    <Content Include="static\font\less\mixins.less" />
+    <Content Include="static\font\less\path.less" />
+    <Content Include="static\font\less\rotated-flipped.less" />
+    <Content Include="static\font\less\stacked.less" />
+    <Content Include="static\font\less\variables.less" />
+    <Content Include="static\font\scss\font-awesome.scss" />
+    <Content Include="static\font\scss\_animated.scss" />
+    <Content Include="static\font\scss\_bordered-pulled.scss" />
+    <Content Include="static\font\scss\_core.scss" />
+    <Content Include="static\font\scss\_fixed-width.scss" />
+    <Content Include="static\font\scss\_icons.scss" />
+    <Content Include="static\font\scss\_larger.scss" />
+    <Content Include="static\font\scss\_list.scss" />
+    <Content Include="static\font\scss\_mixins.scss" />
+    <Content Include="static\font\scss\_path.scss" />
+    <Content Include="static\font\scss\_rotated-flipped.scss" />
+    <Content Include="static\font\scss\_stacked.scss" />
+    <Content Include="static\font\scss\_variables.scss" />
+    <Content Include="static\images\application_screen.png" />
+    <Content Include="static\images\bg_gradinat.png" />
+    <Content Include="static\images\bottom_layer.png" />
+    <Content Include="static\images\fevicon\fevicon.png" />
+    <Content Include="static\images\icon1.png" />
+    <Content Include="static\images\icon2.png" />
+    <Content Include="static\images\icon3.png" />
+    <Content Include="static\images\loaders\loading.gif" />
+    <Content Include="static\images\logo.png" />
+    <Content Include="static\images\pc-banner.png" />
+    <Content Include="static\images\scr1.png" />
+    <Content Include="static\images\scr2.png" />
+    <Content Include="static\images\scr3.png" />
+    <Content Include="static\images\scr4.png" />
+    <Content Include="static\images\ser1.png" />
+    <Content Include="static\images\ser2.png" />
+    <Content Include="static\images\ser3.png" />
+    <Content Include="static\images\slide1.png" />
+    <Content Include="static\images\t1.png" />
+    <Content Include="static\images\t2.png" />
+    <Content Include="static\images\t3.png" />
+    <Content Include="static\images\t4.png" />
+    <Content Include="static\images\top_layer.png" />
+    <Content Include="static\img\.DS_Store" />
+    <Content Include="static\img\about-bg.jpg" />
+    <Content Include="static\img\about.jpg" />
+    <Content Include="static\img\blog\blog.jpg" />
+    <Content Include="static\img\blog\blog2.jpg" />
+    <Content Include="static\img\blog\blog3.jpg" />
+    <Content Include="static\img\client1.jpg" />
+    <Content Include="static\img\client2.jpg" />
+    <Content Include="static\img\client3.jpg" />
+    <Content Include="static\img\client4.jpg" />
+    <Content Include="static\img\DeakinEnergy.jpg" />
+    <Content Include="static\img\ficon.png" />
+    <Content Include="static\img\gallery\.DS_Store" />
+    <Content Include="static\img\gallery\1.jpg" />
+    <Content Include="static\img\gallery\2.jpg" />
+    <Content Include="static\img\gallery\3.jpg" />
+    <Content Include="static\img\gallery\4.jpg" />
+    <Content Include="static\img\gallery\5.jpg" />
+    <Content Include="static\img\gallery\6.jpg" />
+    <Content Include="static\img\header.jpg" />
+    <Content Include="static\img\images\.DS_Store" />
+    <Content Include="static\img\iphone.png" />
+    <Content Include="static\img\logo.png" />
+    <Content Include="static\img\map.jpg" />
+    <Content Include="static\img\team\.DS_Store" />
+    <Content Include="static\img\team\1.jpg" />
+    <Content Include="static\img\team\2.jpg" />
+    <Content Include="static\img\team\3.jpg" />
+    <Content Include="static\js\.DS_Store" />
+    <Content Include="static\js\app.js" />
+    <Content Include="static\js\baguetteBox.js" />
+    <Content Include="static\js\bootstrap-select.js" />
+    <Content Include="static\js\bootstrap.bundle.js" />
+    <Content Include="static\js\bootstrap.bundle.min.js" />
+    <Content Include="static\js\bootstrap.js" />
+    <Content Include="static\js\bootstrap.min.js" />
+    <Content Include="static\js\controls.js" />
+    <Content Include="static\js\custom.js" />
+    <Content Include="static\js\highlight.js" />
+    <Content Include="static\js\jquery.easing.min.js" />
+    <Content Include="static\js\jquery.filterizr.js" />
+    <Content Include="static\js\jquery.js" />
+    <Content Include="static\js\jquery.min.js" />
+    <Content Include="static\js\jquery.mousewheel.min.js" />
+    <Content Include="static\js\npm.js" />
+    <Content Include="static\js\owl.carousel.js" />
+    <Content Include="static\js\plugins.js" />
+    <Content Include="static\js\popper.min.js" />
+    <Content Include="static\js\scrollbot.js" />
+    <Content Include="static\js\scrollreveal.min.js" />
+    <Content Include="static\js\wow.js" />
+    <Content Include="static\js\wow.min.js" />
+    <Content Include="templates\.DS_Store" />
+    <Content Include="templates\assets\.DS_Store" />
+    <Content Include="templates\assets\css\.DS_Store" />
+    <Content Include="templates\assets\css\animate.min.css" />
+    <Content Include="templates\assets\css\baguetteBox.css" />
+    <Content Include="templates\assets\css\bootstrap.min.css" />
+    <Content Include="templates\assets\css\style.css" />
+    <Content Include="templates\assets\font\.DS_Store" />
+    <Content Include="templates\assets\font\css\font-awesome.css" />
+    <Content Include="templates\assets\font\css\font-awesome.min.css" />
+    <Content Include="templates\assets\font\fonts\fontawesome-webfont.eot" />
+    <Content Include="templates\assets\font\fonts\fontawesome-webfont.svg" />
+    <Content Include="templates\assets\font\fonts\fontawesome-webfont.ttf" />
+    <Content Include="templates\assets\font\fonts\fontawesome-webfont.woff" />
+    <Content Include="templates\assets\font\fonts\fontawesome-webfont.woff2" />
+    <Content Include="templates\assets\font\fonts\FontAwesome.otf" />
+    <Content Include="templates\assets\font\less\animated.less" />
+    <Content Include="templates\assets\font\less\bordered-pulled.less" />
+    <Content Include="templates\assets\font\less\core.less" />
+    <Content Include="templates\assets\font\less\fixed-width.less" />
+    <Content Include="templates\assets\font\less\font-awesome.less" />
+    <Content Include="templates\assets\font\less\icons.less" />
+    <Content Include="templates\assets\font\less\larger.less" />
+    <Content Include="templates\assets\font\less\list.less" />
+    <Content Include="templates\assets\font\less\mixins.less" />
+    <Content Include="templates\assets\font\less\path.less" />
+    <Content Include="templates\assets\font\less\rotated-flipped.less" />
+    <Content Include="templates\assets\font\less\stacked.less" />
+    <Content Include="templates\assets\font\less\variables.less" />
+    <Content Include="templates\assets\font\scss\font-awesome.scss" />
+    <Content Include="templates\assets\font\scss\_animated.scss" />
+    <Content Include="templates\assets\font\scss\_bordered-pulled.scss" />
+    <Content Include="templates\assets\font\scss\_core.scss" />
+    <Content Include="templates\assets\font\scss\_fixed-width.scss" />
+    <Content Include="templates\assets\font\scss\_icons.scss" />
+    <Content Include="templates\assets\font\scss\_larger.scss" />
+    <Content Include="templates\assets\font\scss\_list.scss" />
+    <Content Include="templates\assets\font\scss\_mixins.scss" />
+    <Content Include="templates\assets\font\scss\_path.scss" />
+    <Content Include="templates\assets\font\scss\_rotated-flipped.scss" />
+    <Content Include="templates\assets\font\scss\_stacked.scss" />
+    <Content Include="templates\assets\font\scss\_variables.scss" />
+    <Content Include="templates\assets\img\.DS_Store" />
+    <Content Include="templates\assets\img\about-bg.jpg" />
+    <Content Include="templates\assets\img\about.jpg" />
+    <Content Include="templates\assets\img\blog\blog.jpg" />
+    <Content Include="templates\assets\img\blog\blog2.jpg" />
+    <Content Include="templates\assets\img\blog\blog3.jpg" />
+    <Content Include="templates\assets\img\client1.jpg" />
+    <Content Include="templates\assets\img\client2.jpg" />
+    <Content Include="templates\assets\img\client3.jpg" />
+    <Content Include="templates\assets\img\client4.jpg" />
+    <Content Include="templates\assets\img\DeakinEnergy.jpg" />
+    <Content Include="templates\assets\img\ficon.png" />
+    <Content Include="templates\assets\img\gallery\.DS_Store" />
+    <Content Include="templates\assets\img\gallery\1.jpg" />
+    <Content Include="templates\assets\img\gallery\2.jpg" />
+    <Content Include="templates\assets\img\gallery\3.jpg" />
+    <Content Include="templates\assets\img\gallery\4.jpg" />
+    <Content Include="templates\assets\img\gallery\5.jpg" />
+    <Content Include="templates\assets\img\gallery\6.jpg" />
+    <Content Include="templates\assets\img\gallery\bitbucket.png" />
+    <Content Include="templates\assets\img\gallery\jupyter.png" />
+    <Content Include="templates\assets\img\gallery\python-logo.png" />
+    <Content Include="templates\assets\img\gallery\sourcetree.png" />
+    <Content Include="templates\assets\img\gallery\tableau-logo.png" />
+    <Content Include="templates\assets\img\gallery\VS.png" />
+    <Content Include="templates\assets\img\header.jpg" />
+    <Content Include="templates\assets\img\images\.DS_Store" />
+    <Content Include="templates\assets\img\iphone.png" />
+    <Content Include="templates\assets\img\logo - Copy.png" />
+    <Content Include="templates\assets\img\logo.png" />
+    <Content Include="templates\assets\img\map.jpg" />
+    <Content Include="templates\assets\img\team\.DS_Store" />
+    <Content Include="templates\assets\img\team\1.jpg" />
+    <Content Include="templates\assets\img\team\2.jpg" />
+    <Content Include="templates\assets\img\team\3.jpg" />
+    <Content Include="templates\assets\js\.DS_Store" />
+    <Content Include="templates\assets\js\baguetteBox.js" />
+    <Content Include="templates\assets\js\bootstrap.min.js" />
+    <Content Include="templates\assets\js\controls.js" />
+    <Content Include="templates\assets\js\custom.js" />
+    <Content Include="templates\assets\js\jquery.easing.min.js" />
+    <Content Include="templates\assets\js\jquery.filterizr.js" />
+    <Content Include="templates\assets\js\jquery.js" />
+    <Content Include="templates\assets\js\plugins.js" />
+    <Content Include="templates\assets\js\wow.min.js" />
+    <Content Include="templates\Dashboard1.html" />
+    <Content Include="templates\Dashboard2.html" />
+    <Content Include="templates\Dashboard3.html" />
+    <Content Include="templates\index3.html" />
+    <Content Include="templates\Pramodh updated UI\classifier.html" />
+    <Content Include="templates\Pramodh updated UI\home.html" />
+    <Content Include="templates\Pramodh updated UI\style\main.css" />
+    <Content Include="templates\Pramodh updated UI\visual1.html" />
+    <Content Include="templates\Pramodh updated UI\visual2.html" />
+    <Content Include="templates\Pramodh updated UI\visual3.html" />
+    <Content Include="templates\root_webpage_template.html" />
+    <Content Include="templates\Updated_UI_Changes.html" />
+    <Content Include="templates\upload.html" />
+    <Content Include="USE_FAVICON\favicon.ico" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\css\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\css\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\fonts\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\less\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\font\scss\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\blog\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\gallery\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\images\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\img\team\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\creativo\assets\js\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\buttons\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\buttons\icons\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\fancy-type\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\link-icons\icons\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\plugins\rtl\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\blueprint-css\src\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\images\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\Theme Documentation\assets\scripts\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\css\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\font\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\blog\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\gallery\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\images\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\img\team\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\creativo\assets\js\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\Theme Documentation\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\Theme Documentation\assets\" />
+    <Folder Include="creativo-bootstrap-responsive-template-landing-page\__MACOSX\Theme Documentation\assets\images\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\dt\" />
+    <Folder Include="Models\knn\" />
+    <Folder Include="Models\lr\" />
+    <Folder Include="Models\rf\" />
+    <Folder Include="Models\rnn\" />
+    <Folder Include="Models\xgb\" />
+    <Folder Include="static\" />
+    <Folder Include="static\assets\" />
+    <Folder Include="static\assets\css\" />
+    <Folder Include="static\assets\font\" />
+    <Folder Include="static\assets\font\css\" />
+    <Folder Include="static\assets\font\fonts\" />
+    <Folder Include="static\assets\font\less\" />
+    <Folder Include="static\assets\font\scss\" />
+    <Folder Include="static\assets\img\" />
+    <Folder Include="static\assets\img\blog\" />
+    <Folder Include="static\assets\img\gallery\" />
+    <Folder Include="static\assets\img\images\" />
+    <Folder Include="static\assets\img\team\" />
+    <Folder Include="static\assets\js\" />
+    <Folder Include="static\css\" />
+    <Folder Include="static\fonts\" />
+    <Folder Include="static\font\" />
+    <Folder Include="static\font\css\" />
+    <Folder Include="static\font\fonts\" />
+    <Folder Include="static\font\less\" />
+    <Folder Include="static\font\scss\" />
+    <Folder Include="static\images\" />
+    <Folder Include="static\images\fevicon\" />
+    <Folder Include="static\images\loaders\" />
+    <Folder Include="static\img\" />
+    <Folder Include="static\img\blog\" />
+    <Folder Include="static\img\gallery\" />
+    <Folder Include="static\img\images\" />
+    <Folder Include="static\img\team\" />
+    <Folder Include="static\js\" />
+    <Folder Include="templates\" />
+    <Folder Include="templates\assets\" />
+    <Folder Include="templates\assets\css\" />
+    <Folder Include="templates\assets\font\" />
+    <Folder Include="templates\assets\font\css\" />
+    <Folder Include="templates\assets\font\fonts\" />
+    <Folder Include="templates\assets\font\less\" />
+    <Folder Include="templates\assets\font\scss\" />
+    <Folder Include="templates\assets\img\" />
+    <Folder Include="templates\assets\img\blog\" />
+    <Folder Include="templates\assets\img\gallery\" />
+    <Folder Include="templates\assets\img\images\" />
+    <Folder Include="templates\assets\img\team\" />
+    <Folder Include="templates\assets\js\" />
+    <Folder Include="templates\Pramodh updated UI\" />
+    <Folder Include="templates\Pramodh updated UI\style\" />
+    <Folder Include="USE_FAVICON\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
