@@ -1,0 +1,79 @@
+<!doctype html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="style/main.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">	
+</head>
+
+<body onload="option_retainer()" style = "background: url(../downloads/ESV_logo.jpg); background-size: 100% 100%;">
+   <section>
+      <header>
+         <div class="container-fluid header">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 col=lg-12">
+                  <h1 class="logo"> ELECTRICAL NETWORK-RELATED DATA ANALYSIS </h1>
+               </div>
+            </div>
+         </div>
+		</div> 
+      </header>
+   </section>
+
+   <div class="container-fluid body-main" style="min-height: 450px">
+
+       <ul class="nav nav-tabs">
+           <ul class="nav nav-tabs">
+               <li><a href="home.html">Home</a></li>
+               <li><a href="classifier.html">Classifier</a>
+               <li><a href="visual1.html">Dashboard 1</a></li>
+               <li><a href="visual2.html">Dashboard 2</a></li>
+               <li><a href="visual3.html">Dashboard 3</a></li>
+           </ul>
+       </ul>
+
+
+       <br><br><br><br><br><br>
+
+           <h3> <b><center> Classifiers for Event Description</center></b></h3>
+           <form align="center" action="/predict" method="POST">
+
+               <label for="event" align="center">Event Description</label><br>
+               <textarea id="event" name="event" rows="5" cols="50"></textarea>
+               <br><br>
+               <div class="dropdown">
+                   <div class="text-center">
+                       <select name="classifier" id="classifier">
+                           <option value="knn">K Nearest Neighbor</option>
+                           <option value="xgb">XGBoost</option>
+                           <option value="svm">Support Vector Machine</option>
+                           <option value="rf">Random Forest</option>
+                           <option value="nn">Neural Network</option>
+                           <option value="lr">Logistic Regression</option>
+                       </select>
+
+                       <input type="submit" value="Classifier" class="btn btn-success">
+                   </div><br />
+               </div>
+
+           </form>
+   </div><br><br><br>
+
+For debugging purposes only:<br>
+<label> Classifier selected was: {{ classifier_name|safe }}</label><br>
+<label> Incident entered was: {{ incident|safe }}</label>
+<section class="article2">
+      <footer>
+         <div class="container-fluid footer">
+            <div class="row">
+               <p> @ project by Deakin Energy Tribe</p>
+            </div>
+         </div>
+      </footer>
+   </section>
+
+   
+</body>
